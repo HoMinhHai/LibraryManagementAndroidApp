@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#007aff"
+        android:text="Thông tin độc giả"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên"
+        android:textSize="18sp" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtHoVaTen"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvmadg"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mã độc giả"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtMaDocGia"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mã độc giả"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvClass"
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Đơn vị"
+        android:paddingLeft="20dp"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtDonVi"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Đơn vị"
+            android:paddingLeft="20dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvBirthDate"
+        android:paddingLeft="20dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtDiaChiEmail"
+            android:paddingLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvGender"
+        android:paddingLeft="20dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtGioiTinh"
+            android:paddingLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Giới tính"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvCardStatus"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Tình trạng thẻ"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtTinhTrangThe"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Tình trạng thẻ"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+    </LinearLayout>>
+
+
+</LinearLayout>

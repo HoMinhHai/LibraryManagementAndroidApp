@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:background="#03A9F4"
+            android:paddingBottom="20dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text= "THƯ VIỆN TRƯỜNG ĐẠI HỌC Y KHOA \n PHẠM NGỌC THẠCH"/>
+
+            </LinearLayout>
+
+            <com.arlib.floatingsearchview.FloatingSearchView
+                android:id="@+id/searchBar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:floatingSearch_searchBarMarginLeft="0dp"
+                app:floatingSearch_searchHint="Nhập nội dung tìm kiếm"
+                app:floatingSearch_suggestionsListAnimDuration="250"
+                app:floatingSearch_leftActionMode="showSearch"
+                app:floatingSearch_close_search_on_keyboard_dismiss="true"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/sp_filter"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="2dp"
+            app:tabSelectedTextColor="#03A9F4"
+            app:tabTextColor="#03A9F4" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pagerMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
